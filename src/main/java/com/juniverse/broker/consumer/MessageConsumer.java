@@ -49,7 +49,7 @@ public class MessageConsumer {
      * @param message mensaje recibido
      */
     private void processMessage(Message message) {
-        // Business logic to process the message
+        // Lógica de negocio que procesa el mensaje
         log.info("Processing message from sender: {}", message.getSender());
     }
 }
