@@ -167,4 +167,4 @@ INFO  ============================================
 - Spring Kafka
 - Apache Kafka
 - Lombok
-- Java 17
+- Java 21
