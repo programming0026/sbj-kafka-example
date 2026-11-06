@@ -1,5 +1,6 @@
 package com.juniverse.broker.controller;
 
+import com.juniverse.broker.dto.MessageRequest;
 import com.juniverse.broker.model.Message;
 import com.juniverse.broker.producer.MessageProducer;
 import lombok.RequiredArgsConstructor;
@@ -69,12 +70,4 @@ public class MessageController {
     private static boolean isBlank(String value) {
         return value == null || value.isBlank();
     }
-
-    /**
-     * Cuerpo de la petición para enviar un mensaje.
-     *
-     * @param content texto del mensaje
-     * @param sender quién lo envía
-     */
-    public record MessageRequest(String content, String sender) {}
 }

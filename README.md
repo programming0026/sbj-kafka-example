@@ -17,6 +17,8 @@ src/main/java/com/juniverse/broker/
 │   └── KafkaConfig.java             # Configuración del topic
 ├── model/
 │   └── Message.java                 # Modelo de mensaje
+├── dto/
+│   └── MessageRequest.java          # Cuerpo de POST para enviar un mensaje
 ├── producer/
 │   └── MessageProducer.java         # Servicio productor
 ├── consumer/
